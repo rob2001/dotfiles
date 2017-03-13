@@ -1,5 +1,6 @@
 #!/bin/sh
 
+xautolock -exit
 exec xautolock -detectsleep \
   -time 3 -locker "i3lock -d -c 1453AD" \
   -notify 30 \
