@@ -159,7 +159,9 @@ bar {
 
 # set up for xautolock with i3lock
 
-exec_always ~/.i3/locker.sh
+exec_always ~/.config/i3/locker.sh
 
 #this will cause xautolock to immediately lock upon a key sequence.
 bindsym $mod+Shift+p exec "xautolock -locknow"
+bindsym $mod+Shift+i exec "xautolock -enable"
+bindsym $mod+Shift+o exec "xautolock -disable"
