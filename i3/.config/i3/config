@@ -104,6 +104,10 @@ bindsym $mod+8 workspace number 8
 bindsym $mod+9 workspace number 9
 bindsym $mod+0 workspace number 10
 
+#relative movement
+bindsym $mod+comma workspace prev
+bindsym $mod+period workspace next
+
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number 1
 bindsym $mod+Shift+2 move container to workspace number 2
@@ -171,4 +175,4 @@ bindsym $mod+Shift+o exec "xautolock -disable"
 exec_always --no-startup-id compton
 exec --no-startup-id "feh --bg-scale ~/.config/i3/background.png"
 
-exec_always i3-msg rename workspace number 1 to "1:www"
+exec i3-msg rename workspace 1 to "1:www"
