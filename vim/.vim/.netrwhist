@@ -1,7 +1,7 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/var/log'
-let g:netrw_dirhist_2='/var/log/installer'
-let g:netrw_dirhist_3='/usr/local/etc'
-let g:netrw_dirhist_4='/usr/share/doc/shorewall/examples/one-interface'
-let g:netrw_dirhist_5='/home/robert/git/github/project-pages/_includes'
+let g:netrw_dirhist_1='/etc/nginx/sites-enabled'
+let g:netrw_dirhist_2='/home/robert/.config/retroarch'
+let g:netrw_dirhist_3='/home/robert/.config/retroarch/config/remaps'
+let g:netrw_dirhist_4='/home/robert/installs/knightOS_all/sdk'
+let g:netrw_dirhist_5='/home/robert/.config/newsboat'
