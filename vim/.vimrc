@@ -5,6 +5,8 @@ source $VIMRUNTIME/defaults.vim
 
 set ignorecase
 set smartcase
+set nu
+syntax on
 
 " Easy Split Nav
 """"""""""""""""
@@ -19,6 +21,8 @@ set splitright
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
+set expandtab
+set smarttab
 
 inoremap jj <ESC>
 
