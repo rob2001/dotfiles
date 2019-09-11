@@ -3,7 +3,7 @@
 #audible_bell = false
 #clickable_url = true
 #dynamic_title = true
-font = Monospace 9
+font = DejaVuSansMono 9
 #fullscreen = true
 #geometry = 640x480
 #icon_name = terminal
@@ -15,7 +15,7 @@ scrollback_lines = 10000
 #urgent_on_bell = true
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
-#browser = xdg-open
+browser = icecat
 
 # "system", "on" or "off"
 #cursor_blink = system
@@ -42,8 +42,8 @@ foreground = #dcdccc
 foreground_bold = #ffffff
 #background = #3f3f3f
 
-# 20% background transparency (requires a compositor)
-background = rgba(63, 63, 63, 0.8)
+# 8% background transparency (requires a compositor)
+background = rgba(63, 63, 63, 0.92)
 
 # If unset, will reverse foreground and background
 highlight = #2f2f2f
